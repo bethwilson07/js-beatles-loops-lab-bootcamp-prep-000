@@ -19,8 +19,9 @@ function iLoveTheBeatles(n) {
   var array3 = [];
   do {
     array3.unshift('I love the Beatles!');
+    n++;
   } while(n < 15);
-  
+  return array3;
 }
 
 
